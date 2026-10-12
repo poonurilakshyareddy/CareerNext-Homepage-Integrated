@@ -1,0 +1,28 @@
+CAREERNEXT — HOMEPAGE BANNER + UI REFRESH (A, B, C)
+
+This package includes the existing CareerNext project, the Phase 2 portfolio prototype files, and the updated integrated homepage banner.
+
+WHAT CHANGED
+- Reworked the homepage hero to match the approved CareerNext mockup more closely.
+- Added the professional office photo as a wide banner background, with the person on the right and copy on the left.
+- Kept the headline "Your Career Starts Here", supporting description, Explore Jobs and Find Internships actions.
+- Kept the existing functional job search fields, popular search shortcuts, live listing counters, job/category/company sections, and modals.
+- Responsive styling for desktop and mobile.
+- No separate decorative slogans such as "Better Skills..." or "Learn, Grow, Achieve".
+- Preserved the existing Spring Boot backend and the portfolio prototype included in the source package.
+
+RUN FRONTEND
+1. Extract the ZIP.
+2. Open JobHub/jobhub-frontend in VS Code.
+3. Run: npm install
+4. Run: npm run dev -- --port 5177
+5. Open http://localhost:5177 (or the exact URL printed by Vite).
+
+BACKEND
+Run the Spring Boot project in JobHub/jobhub-backend separately for API-backed job data. Keep your existing MySQL configuration in application.properties.
+
+IMPORTANT
+- This package changes local source files; it does not deploy to a public/live server or edit files already on your computer automatically.
+- Login and applying remain preview/demo UI features unless real authentication and application endpoints are configured.
+- The portfolio module in this project is still a prototype; confirm its persistence and privacy controls before production use.
+- A production build could not be verified in this environment because Vite dependencies are not installed here. Run npm install locally, then npm run build to validate.
